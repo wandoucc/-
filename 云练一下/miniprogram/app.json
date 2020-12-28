@@ -1,0 +1,54 @@
+{
+  "pages": [    
+    "pages/index/index",
+    "pages/my/my",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/search/search",
+    "pages/experiencelist/experiencelist",
+    "pages/experiencedetail/experiencedetail",
+    
+    "pages/my/expedit/expedit",
+    "pages/my/zanzhu/zanzhu",
+    "pages/my/fankui/fankui",
+    "pages/my/edit/edit",
+    "pages/my/shengming/shengming",
+    "pages/my/collection/collection"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/icon/home.png",
+        "selectedIconPath": "/icon/home1.png"
+      },
+      {
+        "pagePath": "pages/experiencelist/experiencelist",
+        "text": "面经",
+        "iconPath": "/icon/read.png",
+        "selectedIconPath": "/icon/read1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/icon/my.png",
+        "selectedIconPath": "/icon/my1.png"
+      }
+    ],
+    "selectedColor":"#5b9d86"
+  },
+  "window": {
+    "backgroundColor": "#5b9d86",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#5b9d86",
+    "navigationBarTitleText": "前端面试吧",
+    "navigationBarTextStyle": "white"
+  },
+
+  "usingComponents": {
+    "top": "/Component/top/top"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

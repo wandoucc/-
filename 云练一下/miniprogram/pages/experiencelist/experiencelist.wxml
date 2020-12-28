@@ -1,0 +1,11 @@
+<view class="listitem" wx:for="{{data}}" wx:key="*this">
+    <image class="imagelist" src="/icon/list.png"></image>
+    <navigator url="{{url}}?id={{item.time}}">
+      <view class="ti">{{item.title}}</view>
+      <view class="ct">
+        <view class="company">{{item.day}}</view>
+        <view class="number">{{index+1}}</view>
+      </view>
+    </navigator>
+  <view class="food">Ｏｏ゜○。○ ゜您正在底线的边缘试探。Ｏ°ｏ○。○。</view>
+</view>

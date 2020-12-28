@@ -1,0 +1,18 @@
+<top top="{{top}}"></top>
+
+
+<view class="box">
+  <view class="listitem" wx:for="{{data}}" wx:key="*this">
+    <navigator url="{{url}}?id={{item.second_id}}">
+      <image class="imagelist" src="/icon/list.png"></image>
+      <view class="ti">{{item.title}}</view>
+      <view class="ct">
+        <view class="company">{{item.company}}</view>
+        <view class="number">{{item.id}}</view>
+      </view>
+    </navigator>
+  </view>
+
+  <view class="food">Ｏｏ゜○。○ ゜您正在底线的边缘试探。Ｏ°ｏ○。○。</view>
+
+</view>

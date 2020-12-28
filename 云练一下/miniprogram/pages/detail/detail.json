@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "parser": "/Component/parser/parser"
+  },
+  "navigationBarTitleText": "题目详情"
+}

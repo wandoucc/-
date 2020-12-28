@@ -1,0 +1,9 @@
+.shengming{
+  text-align: center;
+  padding: 50rpx;
+  color: #666;
+}
+
+.shengming view {
+  margin-bottom: 20rpx;
+}

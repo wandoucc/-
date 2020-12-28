@@ -1,0 +1,18 @@
+.title{
+  font-size: 30rpx;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 100rpx;
+}
+
+input{
+  padding: 0px 40rpx;
+  margin-top: 40rpx;
+  border-bottom: 1px solid #eee;
+}
+
+button{
+  margin-top: 60rpx;
+  background-color: #07c160;
+  color: #fff;
+}

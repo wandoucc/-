@@ -1,0 +1,4 @@
+<input placeholder="标题" bindinput="bindinput"></input>
+
+<editor bindinput="textinput"></editor>
+<button bindtap="submit">点击提交</button>

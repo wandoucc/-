@@ -1,0 +1,18 @@
+<!-- <view class="zanzhu">
+  <view>声明：</view>
+  <view>本程序从开发到上线 以及 服务器 域名 以及 维护费用</view>
+  <view>均有作者个人承担</view>
+  <view>除了赞助外没有任何收入</view>
+  <view>欢迎您的支持</view>
+  <view class="image">
+    <image src="/icon/zanzhu.png"></image>
+    <image src="/icon/zanzhu.png"></image>
+  </view>
+</view> -->
+
+<view class="zanzhu">
+ <view>声明：</view>
+ <view>朋友你好 本版本只是第一个版本我们还继续推出</view>
+ <view>阅读、收藏等功能</view>
+ <view>还将推出用户</view>
+</view>

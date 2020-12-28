@@ -1,0 +1,26 @@
+<view class="page">
+  <top top="{{top}}"></top>
+  <view class="title">
+    题目：{{detail.title}}
+  </view>
+
+  <view class="makedown">
+    <button class="button" wx:if="{{flag}}" bindtap="_changeFlag">点击查看答案</button>
+    <parser wx:else html="{{detail.detail}}" tag-style="{{tagStyle}}" />
+  </view>
+
+  <button id="{{isShoucang?'yishoucang':'weishoucang'}}" bindtap="_shouchang">{{isShoucangTit?"收藏成功":"未收藏"}}</button>
+
+  <view class="changet">
+    <button bindtap="red">上一题</button>
+    <button bindtap="next">下一题</button>
+  </view>
+
+</view>
+
+<view class="mask" wx:if="{{isLogin}}">
+  <view class="login">
+    <image src="../../icon/login.png"></image>
+    <button open-type="getUserInfo" bindgetuserinfo="_login">同意授权</button>
+  </view>
+</view>

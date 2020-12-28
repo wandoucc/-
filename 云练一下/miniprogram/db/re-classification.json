@@ -1,0 +1,12 @@
+{"_id":"2f6ab8515fdb4027000bb87778dbb5b0","fister_id":1.608204326915E+12,"icon":"/icon/html.png","title":"HTML"}
+{"_id":"2424fa985fdb404b000ccff36bca4743","fister_id":1.608204363094E+12,"icon":"/icon/css.png","title":"CSS"}
+{"_id":"eb0c51035fdb405b000e860814264c65","icon":"/icon/js.png","title":"JS","fister_id":1.608204379226E+12}
+{"_id":"85ff8afa5fdb406b000ec56263e38d16","fister_id":1.608204395773E+12,"icon":"/icon/js_es6.png","title":"ES6"}
+{"_id":"85ff8afa5fdb40ef000ed0174d84daae","fister_id":1.608204527123E+12,"icon":"/icon/Vue.png","title":"Vue"}
+{"_id":"eb0c51035fdb4116000e952e435b22de","fister_id":1.608204566149E+12,"icon":"/icon/react.png","title":"React"}
+{"_id":"9f2a34705fdb4139000ee4fd2a13a136","title":"Node","fister_id":1.608204601019E+12,"icon":"/icon/node.png"}
+{"_id":"a8831daa5fdb414c001104e5208e2914","title":"Python","fister_id":1.608204619834E+12,"icon":"/icon/python.png"}
+{"_id":"2f6ab8515fdb415d000bcc850808ad0c","fister_id":1.608204637629E+12,"icon":"/icon/ubuntu.png","title":"Ubuntu"}
+{"_id":"98bb04175fdb4195000c479f19b1ae1c","fister_id":1.60820469353E+12,"icon":"/icon/xiaochengxu.png","title":"小程序"}
+{"_id":"eb0c51035fe70f0c00ac1ce40e083f9d","fister_id":1.608977845929E+12,"icon":"/icon/Webpack.png","title":"工程化"}
+{"_id":"eb0c51035fe70f0c00ac1ce579be6826","fister_id":1.608978114378E+12,"icon":"/icon/anquan.png","title":"安全"}

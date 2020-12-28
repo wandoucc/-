@@ -1,0 +1,24 @@
+<form bindsubmit="formSubmit">
+
+  <radio-group name="fister_id">
+    <radio wx:for="{{list}}" value="{{item.fister_id}}" wx:key="*this">{{item.title}}</radio>
+
+  </radio-group>
+
+  <input placeholder="公司" name="company"></input>
+  <input placeholder="标题" name="title"></input>
+
+  
+
+  <editor id="editor" placeholder="请输入"/>
+
+  <checkbox-group bindchange="isDay">
+    <checkbox value="true">
+      是否是今日必刷
+    </checkbox>
+  </checkbox-group>
+
+
+  <button form-type="submit">点击添加题目</button>
+
+</form>

@@ -1,0 +1,8 @@
+<view class="shengming">
+  <image src="/icon/shengming.png"></image>
+  <view>版本号:1.0.0更多功能开发中 敬请期待 </view>
+  <view>嗨你好 本小程序 题目来源均来自网络 以及 作者自己整理 </view>
+  <view>如果 您发现了 不妥的 地方 或者是 题目 有错误的地方 请点击 反馈 进行 提交</view>
+  <view>最后祝您学习愉快</view>
+</view>
+

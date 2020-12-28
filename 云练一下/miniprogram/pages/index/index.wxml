@@ -1,0 +1,52 @@
+<!-- <view class="explain">
+  <image src="/icon/tongzhi.png"></image>
+  <view>
+    朋友你好这只是第一个版本，我们还会陆续推出更多功能敬请期待
+  </view>
+</view> -->
+
+<view class="main" wx:if="{{isshow}}">
+  <!-- 顶部的小图标 -->
+  <view class="top">
+    <text class="zhenyan">无欲速，无见小利，欲速则不达</text>
+    <icon type="search" bindtap="_search" size="30"></icon>
+    <navigator url="{{url}}?id={{randomquestions.second_id}}">
+        <view>
+          <image src="/icon/suiji.png"></image>
+        </view>
+      </navigator>
+  </view>
+  <!-- 今日刷题 -->
+  <view>
+    <navigator url="{{url}}?id={{brushtodaydata.second_id}}&tt=1">
+      <view class="brushtodaycontent">
+        <!-- 设置每日必刷的题目名 -->
+        <view class="brushtodaytitle">
+          {{brushtodaydata.title}}
+        </view>
+
+        <view class="brushtodaydata">
+          {{brushtodaydata.date}}
+        </view>
+      </view>
+    </navigator>
+  </view>
+  <!-- 分类 -->
+  <view class="classification">
+    <navigator class="classificationitem" wx:for="{{basic_knowledge}}" 
+      wx:key="*this" 
+      url="/pages/list/list?id={{item.fister_id}}">
+      <view class="basicknowledgeitem">
+        <view class="icon">
+          <image src="{{item.icon}}"></image>
+          <view>{{item.title}}</view>
+        </view>
+        
+      </view>
+    </navigator>
+  </view>
+</view>
+
+<image class="image" src="https://cc-1251931245.cos.ap-nanjing.myqcloud.com/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%9B%BE%E7%89%87/eKXRM2359x.jpg"></image>
+
+<!-- <image class="image" src="/icon/bgc.png"></image> -->

@@ -1,0 +1,35 @@
+<view wx:if="{{show}}">
+  <view class="self">
+    <view class="myname">
+      <image src="{{image}}"></image>
+      <view>{{name}}</view>
+    </view>
+
+    <text class="zhenyan">每一个星球都有一个驱动核心，
+每一种思想都有影响力的种子。</text>
+    <!-- <button bindtap="clear">我要退出</button> -->
+  </view>
+  <view wx:for="{{list}}" wx:key="*this" class="mylist">
+    <navigator url="{{item.path}}">
+      <image src="{{item.icon}}"></image>
+      <text>{{item.title}}</text>
+    </navigator>
+  </view>
+
+  <view class="kefu">
+    <image src="/icon/kefu.png"></image>
+    <button id="button" open-type="contact">联系客服</button>
+  </view>
+
+  <view wx:for="{{admin}}" wx:key="*this" wx:if="{{id===_openid}}" class="mylist">
+    <navigator url="{{item.path}}">
+      <image src="{{item.icon}}"></image>
+      <text>{{item.title}}</text>
+    </navigator>
+  </view>
+</view>
+
+<view wx:else>
+  <view class="shuoming">嗨朋友 请您放心授权 我们获取不到您的任何信息 授权仅用做收藏等功能</view>
+  <button class="submit" open-type="getUserInfo" bindgetuserinfo="_getUser">同意授权</button>
+</view>

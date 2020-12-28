@@ -1,0 +1,73 @@
+.box {
+  margin-top: 20rpx;
+  padding: 0rpx 10rpx;
+}
+
+.listitem {
+  background-color: #fff;
+  border: 1px solid #eee;
+  margin-top: -1px;
+  position: relative;
+  height: 150rpx;
+  margin-bottom: 20rpx;
+  border-radius: 20rpx;
+  box-shadow: 100rpx;
+}
+
+.ti {
+  line-height: 150rpx;
+  width: 75%;
+  height: 100%;
+  font-size: 30rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 20rpx;
+  font-weight: 700;
+}
+
+.ct {
+  position: absolute;
+  background-color: #5b9d86;
+  top: 0rpx;
+  right: 0rpx;
+  border-radius: 10rpx;
+  font-size: 60rpx;
+  text-align: center;
+  height: 110rpx;
+  padding: 20rpx 0rpx;
+  color: #fff;
+  width: 150rpx;
+}
+
+.company {
+  font-size: 25rpx;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20rpx;
+}
+
+.number {
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  font-weight: 900;
+}
+
+navigator {
+  height: 100%;
+}
+
+.food {
+  font-size: 30rpx;
+  text-align: center;
+  color: #ccc;
+  margin: 30rpx 0px;
+}
+
+.imagelist {
+  position: absolute;
+  width: 140rpx;
+  height: 150rpx;
+  z-index: 1;
+  right: 85rpx;
+  top: 20rpx;
+}

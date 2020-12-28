@@ -1,0 +1,12 @@
+.zanzhu{
+  font-size: 30rpx;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 100rpx;
+}
+.image{
+  padding-top: 30rpx;
+  display: flex;
+  justify-content: center;
+  flex: 1
+}

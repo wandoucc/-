@@ -1,0 +1,5 @@
+<view class="title">
+  {{top.title}}
+  <text class="company">{{top.company}}</text>
+</view>
+

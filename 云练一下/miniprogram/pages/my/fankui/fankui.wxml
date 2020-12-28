@@ -1,0 +1,21 @@
+<view>
+  <view class="title">请输入您遇见的问题</view>
+
+
+
+  <!-- <view>
+    <input placeholder="请输入问题" bindinput="_blue" data-information="{{information}}"></input>
+  </view> -->
+
+  <!-- <view>
+    <input placeholder="请输入联系方式"></input>
+  </view> -->
+
+  <view>
+    <input placeholder="请输入您遇见的问题" bindinput="_input"></input>
+  </view>
+
+  <view>
+    <button bindtap="submit">点击提交</button>
+  </view>
+</view>

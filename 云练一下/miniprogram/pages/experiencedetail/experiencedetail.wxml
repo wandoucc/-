@@ -1,0 +1,6 @@
+<view class="title">
+  <view>{{data.title}}</view>
+  <view>{{data.day}}</view>
+</view>
+
+<rich-text nodes="{{data.textinput}}" class="content"></rich-text>
